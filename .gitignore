@@ -1,0 +1,9 @@
+/src/Debug
+/bin/desktop.ilk
+/bin/*.pdb
+/bin/user/user.cfg
+/src/desktop.vcxproj.user
+/desktop.opensdf
+/bin/desktop.exe
+/bin/user/console.log
+/desktop.sdf
