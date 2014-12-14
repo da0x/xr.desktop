@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="freetype">
+</Property><Property Name="Solution File" Value="F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.sln">
+</Property><Property Name="User Options File" Value="F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.suo">
+</Property><Property Name="Date" Value="Sunday, May 09, 2010">
+</Property><Property Name="Time" Value="22:45 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="freetype.sln" Description="Error creating backup file: F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="freetype.suo" Description="File successfully backed up as F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.suo.old">
+</Event><Event ErrorLevel="0" Project="freetype" Source="freetype.vcproj" Description="Converting project file 'F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.vcproj'.">
+</Event><Event ErrorLevel="1" Project="freetype" Source="freetype.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="freetype" Source="freetype.vcproj" Description="Done converting to new project file 'F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="freetype" Source="freetype.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="freetype.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="freetype.sln" Description="Converted">
+</Event></UpgradeLog>

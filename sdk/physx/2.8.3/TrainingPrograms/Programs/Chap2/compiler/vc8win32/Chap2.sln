@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson201", "Lesson201.vcproj", "{073BAABE-73F8-3AC8-8EA3-07B8225C90B2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson202", "Lesson202.vcproj", "{083B9C1C-B568-DB8C-FA68-60D8234CD5C8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson203", "Lesson203.vcproj", "{093B8E06-22E2-402C-60D2-D6F84F864D60}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson204", "Lesson204.vcproj", "{0A3AB44C-3A68-A14C-C094-62FC69A0509C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson205", "Lesson205.vcproj", "{0B3AA7AE-777E-C862-D6E8-B6D03A111162}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson206", "Lesson206.vcproj", "{0C3A9A2C-9B94-9908-B1AC-C7E0307AB738}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson207", "Lesson207.vcproj", "{0D3A8DC6-B7C8-E111-BA16-AA76970F3943}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson208", "Lesson208.vcproj", "{0E39B80C-8CDC-B0E8-ED4A-CA2C6D103078}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson209", "Lesson209.vcproj", "{0F39ACF0-A560-3EE0-57F9-6CA0495CD920}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson210", "Lesson210.vcproj", "{073BAC19-5DC0-2B78-E644-67C6AC20246D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson211", "Lesson211.vcproj", "{083ACEFD-590E-4DC6-7068-F56DDBF430D8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson212", "Lesson212.vcproj", "{093AC01D-66E6-A6C0-AEAD-E2AC11C069A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson213", "Lesson213.vcproj", "{0A3AB2E5-5059-380E-D630-9FD51730415C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson214", "Lesson214.vcproj", "{0B39D8A5-9883-BAA0-4ADE-CA992B70AF38}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson215", "Lesson215.vcproj", "{0C39CB01-E48F-8768-C3F8-13D45CFC964C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson216", "Lesson216.vcproj", "{0D39BE93-D12A-37F8-C15F-FFA51360DE2A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+EndGlobal

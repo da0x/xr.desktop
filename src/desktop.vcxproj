@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DCFFA7F4-77EA-49FF-A7D8-B095D53F5B69}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>desktop</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>G:\xr.desktop\sdk\physx\2.8.4\SDKs\PhysXLoader\include;G:\xr.desktop\sdk\physx\2.8.4\SDKs\Foundation\include;G:\xr.desktop\sdk\physx\2.8.4\SDKs\Physics\include;..\sdk\freetype-2.3.9\include;..\sdk\devil\x86\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\sdk\freetype-2.3.9\objs\win32\vc2008;..\sdk\devil\x86\lib;..\sdk\physx\2.8.3\SDKs\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <ExecutablePath>C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\sdk\freetype-2.3.9\include;..\sdk\devil\x86\include;..\sdk\physx\2.8.3\SDKs\PhysXLoader\include;..\sdk\physx\2.8.3\SDKs\Foundation\include;..\sdk\physx\2.8.3\SDKs\Physics\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\sdk\freetype-2.3.9\objs\win32\vc2008;..\sdk\devil\x86\lib;..\sdk\physx\2.8.3\SDKs\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\sdk\freetype-2.3.9\include;..\sdk\devil\x86\include;..\sdk\physx\2.8.3\SDKs\PhysXLoader\include;..\sdk\physx\2.8.3\SDKs\Foundation\include;..\sdk\physx\2.8.3\SDKs\Physics\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\sdk\freetype-2.3.9\objs\win32\vc2008;..\sdk\devil\x86\lib;..\sdk\physx\2.8.3\SDKs\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\sdk\freetype-2.3.9\include;..\sdk\devil\x86\include;..\sdk\physx\2.8.3\SDKs\PhysXLoader\include;..\sdk\physx\2.8.3\SDKs\Foundation\include;..\sdk\physx\2.8.3\SDKs\Physics\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\sdk\freetype-2.3.9\objs\win32\vc2008;..\sdk\devil\x86\lib;..\sdk\physx\2.8.3\SDKs\lib\Win32;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);freetype239.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);freetype239.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);freetype239.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);freetype239.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="core_shell.hpp" />
+    <ClInclude Include="core_shell_contextmenu.hpp" />
+    <ClInclude Include="core_string_cast.hpp" />
+    <ClInclude Include="core_utf8.hpp" />
+    <ClInclude Include="DAudio_Listener.h" />
+    <ClInclude Include="DAudio_Main.h" />
+    <ClInclude Include="DAudio_Sound.h" />
+    <ClInclude Include="Demo_Camera.h" />
+    <ClInclude Include="Demo_Effect.h" />
+    <ClInclude Include="Demo_Registery.h" />
+    <ClInclude Include="Demo_Scene.h" />
+    <ClInclude Include="DE_BouncingBalls.h" />
+    <ClInclude Include="DE_cg.h" />
+    <ClInclude Include="DE_Config.h" />
+    <ClInclude Include="DE_GetMrFrench.h" />
+    <ClInclude Include="DE_IntroScene.h" />
+    <ClInclude Include="DE_Lighting_fx.h" />
+    <ClInclude Include="DE_OGLF_AD0.H" />
+    <ClInclude Include="DE_OGLF_AD1.H" />
+    <ClInclude Include="DE_Snow.h" />
+    <ClInclude Include="DE_TD.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DE_TD_Client.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DE_TD_Game.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DE_TD_Shared.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DE_TerrainScene.h" />
+    <ClInclude Include="DGL.H" />
+    <ClInclude Include="DGL_Avi.h" />
+    <ClInclude Include="DGL_Ball.h" />
+    <ClInclude Include="DGL_Blur.h" />
+    <ClInclude Include="DGL_Camera.h" />
+    <ClInclude Include="DGL_Collision.h" />
+    <ClInclude Include="DGL_Color.h" />
+    <ClInclude Include="DGL_Extensions.h" />
+    <ClInclude Include="DGL_FadeScreen.h" />
+    <ClInclude Include="DGL_Fog.h" />
+    <ClInclude Include="DGL_Font.h" />
+    <ClInclude Include="DGL_Font3D.h" />
+    <ClInclude Include="DGL_Frustum.h" />
+    <ClInclude Include="DGL_FX.H" />
+    <ClInclude Include="DGL_GenTexture.h" />
+    <ClInclude Include="DGL_Image.h" />
+    <ClInclude Include="DGL_Light.h" />
+    <ClInclude Include="DGL_LoadingScreen.h" />
+    <ClInclude Include="DGL_Main.h" />
+    <ClInclude Include="DGL_Material.h" />
+    <ClInclude Include="DGL_Matrix.h" />
+    <ClInclude Include="DGL_model.h" />
+    <ClInclude Include="DGL_ModelMilkshape.h" />
+    <ClInclude Include="DGL_Particle.h" />
+    <ClInclude Include="DGL_Shader.h" />
+    <ClInclude Include="DGL_SkyBox.h" />
+    <ClInclude Include="DGL_State.h" />
+    <ClInclude Include="DGL_Terrain.h" />
+    <ClInclude Include="DGL_TextImage.h" />
+    <ClInclude Include="DGL_Texture.h" />
+    <ClInclude Include="DGL_Tomas_m3ds.h" />
+    <ClInclude Include="DGL_Tomas_model.h" />
+    <ClInclude Include="DGL_Train.h" />
+    <ClInclude Include="DGL_Vertex.h" />
+    <ClInclude Include="DGL_Water.h" />
+    <ClInclude Include="DMath.h" />
+    <ClInclude Include="DMath_Random.h" />
+    <ClInclude Include="DMath_SortSystems.h" />
+    <ClInclude Include="DMath_Utl.h" />
+    <ClInclude Include="DMath_Vector.h" />
+    <ClInclude Include="DOpenGL.h" />
+    <ClInclude Include="DShared.h" />
+    <ClInclude Include="DSys.h" />
+    <ClInclude Include="DSys_ConfigDialog.h" />
+    <ClInclude Include="DSys_Console.h" />
+    <ClInclude Include="DSys_File.h" />
+    <ClInclude Include="DSys_Input.h" />
+    <ClInclude Include="DSys_Logger.h" />
+    <ClInclude Include="DSys_Main.h" />
+    <ClInclude Include="DSys_Physics.h" />
+    <ClInclude Include="DSys_Timer.h" />
+    <ClInclude Include="DSys_Var.h" />
+    <ClInclude Include="DSys_Window.h" />
+    <ClInclude Include="Dui_Main.h" />
+    <ClInclude Include="Sysinfo\CpuFeatures.h" />
+    <ClInclude Include="Sysinfo\CpuInfo.h" />
+    <ClInclude Include="Sysinfo\CpuStats.h" />
+    <ClInclude Include="Sysinfo\DriveInfo.h" />
+    <ClInclude Include="Sysinfo\DriveStats.h" />
+    <ClInclude Include="Sysinfo\MemoryInfo.h" />
+    <ClInclude Include="Sysinfo\OSInfo.h" />
+    <ClInclude Include="Sysinfo\RegisterValues.h" />
+    <ClInclude Include="Sysinfo\SocketInfo.h" />
+    <ClInclude Include="Sysinfo\SysInfo.h" />
+    <ClInclude Include="Sysinfo\SysInfoClasses.h" />
+    <ClInclude Include="Sysinfo\SysUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core_shell.cpp" />
+    <ClCompile Include="core_shell_contextmenu.cpp" />
+    <ClCompile Include="core_shell_win32.cpp" />
+    <ClCompile Include="core_utf8.cpp" />
+    <ClCompile Include="DAudio_Main.cpp" />
+    <ClCompile Include="DE_BouncingBalls.cpp" />
+    <ClCompile Include="DE_Scene.cpp" />
+    <ClCompile Include="DE_TD.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DE_TD_Client.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DE_TD_Game.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DE_TD_Shared.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DGL_Extensions.cpp" />
+    <ClCompile Include="DGL_Font.cpp" />
+    <ClCompile Include="DGL_Frustum.cpp" />
+    <ClCompile Include="DGL_Image.cpp" />
+    <ClCompile Include="DGL_LoadingScreen.cpp" />
+    <ClCompile Include="DGL_Main.cpp" />
+    <ClCompile Include="DGL_Material.cpp" />
+    <ClCompile Include="DGL_Model.cpp" />
+    <ClCompile Include="DGL_ModelMilkshape.cpp" />
+    <ClCompile Include="DGL_Shader.cpp" />
+    <ClCompile Include="DGL_Texture.cpp" />
+    <ClCompile Include="DGL_Tomas_m3ds.cpp" />
+    <ClCompile Include="DGL_Tomas_model.cpp" />
+    <ClCompile Include="DShared.cpp" />
+    <ClCompile Include="DSys_ConfigDialog.cpp" />
+    <ClCompile Include="DSys_Console.cpp" />
+    <ClCompile Include="DSys_File.cpp" />
+    <ClCompile Include="DSys_Input.cpp" />
+    <ClCompile Include="DSys_Logger.cpp" />
+    <ClCompile Include="dsys_logo.cpp" />
+    <ClCompile Include="DSys_Main.cpp" />
+    <ClCompile Include="DSys_Physics.cpp" />
+    <ClCompile Include="DSys_Timer.cpp" />
+    <ClCompile Include="DSys_Var.cpp" />
+    <ClCompile Include="DSys_Window.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Sysinfo\CpuInfo.cpp" />
+    <ClCompile Include="Sysinfo\CpuStats.cpp" />
+    <ClCompile Include="Sysinfo\DriveInfo.cpp" />
+    <ClCompile Include="Sysinfo\DriveStats.cpp" />
+    <ClCompile Include="Sysinfo\MemoryInfo.cpp" />
+    <ClCompile Include="Sysinfo\OSInfo.cpp" />
+    <ClCompile Include="Sysinfo\RegisterValues.cpp" />
+    <ClCompile Include="Sysinfo\SocketInfo.cpp" />
+    <ClCompile Include="Sysinfo\SysInfo.cpp" />
+    <ClCompile Include="Sysinfo\SysUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DMath_Random.inl" />
+    <None Include="DMath_SortSystems.inl" />
+    <None Include="DMath_Utl.inl" />
+    <None Include="DMath_Vector.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

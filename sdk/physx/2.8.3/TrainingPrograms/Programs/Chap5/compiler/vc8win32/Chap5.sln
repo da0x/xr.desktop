@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson501", "Lesson501.vcproj", "{0A3AC116-46F4-A6D7-D226-D710CBB2235A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson502", "Lesson502.vcproj", "{0B3AB3EC-8768-4031-EE88-ACE8D239BE89}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson503", "Lesson503.vcproj", "{0C3AA56A-CC0A-E9F4-01F8-DD6E3E4C44A0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson504", "Lesson504.vcproj", "{0D3A9790-6670-99A2-BE40-C2409FD3763F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson505", "Lesson505.vcproj", "{0E39BE16-03B6-8146-F734-AFEAA8C8BFB6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+EndGlobal

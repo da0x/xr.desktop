@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sysinfo">
+      <UniqueIdentifier>{c9ef59d1-cc81-4465-bede-b08245e2a4a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core_shell.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core_shell_contextmenu.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core_string_cast.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core_utf8.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DAudio_Listener.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DAudio_Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DAudio_Sound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo_Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo_Effect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo_Registery.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo_Scene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_BouncingBalls.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_cg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_Config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_GetMrFrench.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_IntroScene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_Lighting_fx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_OGLF_AD0.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_OGLF_AD1.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_Snow.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_TD.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_TD_Client.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_TD_Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_TD_Shared.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_TerrainScene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Avi.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Ball.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Blur.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Collision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Color.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Extensions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_FadeScreen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Fog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Font.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Font3D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Frustum.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_FX.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_GenTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Light.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_LoadingScreen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Material.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Matrix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_model.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_ModelMilkshape.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Particle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_SkyBox.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_State.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Terrain.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_TextImage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Texture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Tomas_m3ds.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Tomas_model.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Train.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Vertex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DGL_Water.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMath_Random.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMath_SortSystems.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMath_Utl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMath_Vector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DOpenGL.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DShared.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_ConfigDialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Console.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_File.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Input.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Logger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Physics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Timer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSys_Window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dui_Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\CpuFeatures.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\CpuInfo.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\CpuStats.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\DriveInfo.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\DriveStats.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\MemoryInfo.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\OSInfo.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\RegisterValues.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\SocketInfo.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\SysInfo.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\SysInfoClasses.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sysinfo\SysUtils.h">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core_shell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core_shell_contextmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core_shell_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core_utf8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAudio_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_BouncingBalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_TD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_TD_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_TD_Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_TD_Shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Frustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_LoadingScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_ModelMilkshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Tomas_m3ds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DGL_Tomas_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DShared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_ConfigDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsys_logo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSys_Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\CpuInfo.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\CpuStats.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\DriveInfo.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\DriveStats.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\MemoryInfo.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\OSInfo.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\RegisterValues.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\SocketInfo.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\SysInfo.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysinfo\SysUtils.cpp">
+      <Filter>Source Files\sysinfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DMath_Random.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DMath_SortSystems.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DMath_Utl.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DMath_Vector.inl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

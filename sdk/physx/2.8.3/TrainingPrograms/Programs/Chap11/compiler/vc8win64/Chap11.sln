@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1101", "Lesson1101.vcproj", "{374BDD41-16AC-57AA-613D-1D547A8EA032}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1102", "Lesson1102.vcproj", "{384BCEE8-6750-A952-F378-0E7089CEBAD0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1103", "Lesson1103.vcproj", "{394BBFC5-AC9E-CA8B-D476-3304D7D26B75}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1104", "Lesson1104.vcproj", "{3A4AE4C8-DE38-2C30-137E-3AD8D428790E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1105", "Lesson1105.vcproj", "{3B4AD6EC-24C8-70C2-0840-B988950039C4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1106", "Lesson1106.vcproj", "{3C4AC8F8-5360-06E8-ADB4-075094A85520}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+EndGlobal

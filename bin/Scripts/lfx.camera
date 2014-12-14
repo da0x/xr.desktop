@@ -1,0 +1,14 @@
+NumOfStages = 2
+
+TrainScript = lfx0
+DelayTime = 100.0
+TotalTime = 8000
+FadeInTime = 1000
+FadeOutTime = 2000
+
+TrainScript = lfx1
+DelayTime = 100.0
+TotalTime = 5000
+FadeInTime = 1000
+FadeOutTime = 2000
+

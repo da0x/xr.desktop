@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1001", "Lesson1001.vcproj", "{364CB8F0-A520-E428-A38E-36D08F58A0D8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1002", "Lesson1002.vcproj", "{374CA9A4-C824-F559-6100-8C98AF832343}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1003", "Lesson1003.vcproj", "{384C9A70-AD00-0F70-2B38-8430D8467448}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1004", "Lesson1004.vcproj", "{394BBFBD-E7C1-7E50-C8EF-435128D094CF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1005", "Lesson1005.vcproj", "{3A4BB1CE-C67E-B7AC-DEB4-6988016E9264}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1006", "Lesson1006.vcproj", "{3B4BA3AB-BDDF-F22C-FCD2-B5B3334382CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1007", "Lesson1007.vcproj", "{3C4B9554-5BA0-7CF4-3674-2E005A841C70}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1008", "Lesson1008.vcproj", "{3D4ABF0E-CFAA-6EC6-3513-BAC0E90F29E6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1009", "Lesson1009.vcproj", "{3E4AB248-5A30-2876-D54E-3178A9AE0038}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1010", "Lesson1010.vcproj", "{364CBAD0-8220-AA02-1158-0A1044125D5E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+EndGlobal

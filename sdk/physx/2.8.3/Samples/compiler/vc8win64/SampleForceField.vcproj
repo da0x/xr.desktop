@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+ProjectType="Visual C++"
+Version="8.00"
+Name="SampleForceField"
+>
+<Platforms>
+<Platform Name="x64"/>
+</Platforms>
+<Configurations>
+  <Configuration
+    Name="default|x64"
+    OutputDirectory="../../../bin/win64"
+    IntermediateDirectory="./build/x64/SampleForceField/default"
+    ConfigurationType="1"
+    InheritedPropertySheets=""
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../SampleCommonCode/src/win&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Foundation/include/win&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../SampleForceField/src&quot;;&quot;../../../Tools/NxuStream2&quot;;&quot;../../../Graphics/include/win32&quot;;&quot;../../SampleCommonCode/src&quot;;&quot;../../SampleCommonCode/src/win&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Foundation/include/win&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../SampleForceField/src&quot;;&quot;../../../Tools/NxuStream2&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;WIN32;_CRT_SECURE_NO_DEPRECATE;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions=""
+      ExceptionHandling="1"
+      DebugInformationFormat=""
+      RuntimeLibrary=""
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/.exe" 
+      ProgramDatabaseFile="$(OutDir)/.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win64 /LIBPATH:../../../Graphics/lib/win32/glut/x64 /LIBPATH:../../../SDKs/lib/win64 /LIBPATH:../../../Graphics/lib/win32/glut/x64 "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      ImportLibrary="$(OutDir)/$(TargetName).lib"
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/.exe.map"
+      SubSystem="1"
+      GenerateDebugInformation=""
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool"/>
+    <Tool Name="VCPostBuildEventTool"/>
+    <Tool Name="VCPreLinkEventTool"/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+  <Configuration
+    Name="Release|x64"
+    OutputDirectory="../../../bin/win64"
+    IntermediateDirectory="./build/x64/SampleForceField/Release"
+    ConfigurationType="1"
+    InheritedPropertySheets=""
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../SampleCommonCode/src/win&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Foundation/include/win&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../SampleForceField/src&quot;;&quot;../../../Tools/NxuStream2&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;NDEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/O2 /MT "
+      ExceptionHandling="1"
+      DebugInformationFormat=""
+      RuntimeLibrary=""
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/SampleForceField.exe" 
+      ProgramDatabaseFile="$(OutDir)/SampleForceField.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win64 /LIBPATH:../../../Graphics/lib/win32/glut/x64 PhysXLoader64.lib "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      ImportLibrary="$(OutDir)/$(TargetName).lib"
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/SampleForceField.exe.map"
+      SubSystem="1"
+      GenerateDebugInformation=""
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool"/>
+    <Tool Name="VCPostBuildEventTool"/>
+    <Tool Name="VCPreLinkEventTool"/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+  <Configuration
+    Name="Debug|x64"
+    OutputDirectory="../../../bin/win64"
+    IntermediateDirectory="./build/x64/SampleForceField/Debug"
+    ConfigurationType="1"
+    InheritedPropertySheets=""
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../SampleCommonCode/src/win&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Foundation/include/win&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../SampleForceField/src&quot;;&quot;../../../Tools/NxuStream2&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;_DEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/Od /MTd /Zi "
+      ExceptionHandling="1"
+      DebugInformationFormat=""
+      RuntimeLibrary=""
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/SampleForceFieldDEBUG.exe" 
+      ProgramDatabaseFile="$(OutDir)/SampleForceFieldDEBUG.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win64 /LIBPATH:../../../Graphics/lib/win32/glut/x64 /DEBUG PhysXLoader64.lib "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      ImportLibrary="$(OutDir)/$(TargetName).lib"
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/SampleForceFieldDEBUG.exe.map"
+      SubSystem="1"
+      GenerateDebugInformation=""
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool"/>
+    <Tool Name="VCPostBuildEventTool"/>
+    <Tool Name="VCPreLinkEventTool"/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+</Configurations>
+<References></References>
+<Files>
+  <Filter Name="Common Source" Filter=""> <!--  -->
+    <Filter Name="win" Filter=""> <!--  -->
+      <File RelativePath="..\..\SampleCommonCode\src\win\MediaPath_WIN.cpp"/>
+      <File RelativePath="..\..\SampleCommonCode\src\win\Timing_WIN.cpp"/>
+    </Filter>
+    <File RelativePath="..\..\SampleCommonCode\src\Actors.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Actors.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DrawObjects.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DrawObjects.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Stream.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Stream.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Timing.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DebugRenderer.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DebugRenderer.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\UserAllocator.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\UserAllocator.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\cooking.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\cooking.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\GLFontData.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\GLFontRenderer.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\GLFontRenderer.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MediaPath.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\wavefront.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\wavefront.h"/>
+  </Filter>
+  <Filter Name="Sample Source" Filter=""> <!--  -->
+    <File RelativePath="..\..\SampleForceField\src\NxSampleForceField.h"/>
+    <File RelativePath="..\..\SampleForceField\src\BackyardScene.cpp"/>
+    <File RelativePath="..\..\SampleForceField\src\ExplosionSample.cpp"/>
+    <File RelativePath="..\..\SampleForceField\src\NxSampleForceField.cpp"/>
+    <File RelativePath="..\..\SampleForceField\src\VortexSample.cpp"/>
+    <File RelativePath="..\..\SampleForceField\src\WindSample.cpp"/>
+  </Filter>
+  <Filter Name="SoftBody Source" Filter=""> <!--  -->
+    <File RelativePath="..\..\SampleCommonCode\src\BmpLoader.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\BmpLoader.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\glRenderer.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\glRenderer.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MeshHash.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MeshHash.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MySoftBody.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MySoftBody.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\ObjMesh.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\ObjMesh.h"/>
+  </Filter>
+  <Filter Name="NxuStream2" Filter=""> <!--  -->
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Asc2Bin.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaExport.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaImport.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_cooking.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_customcopy.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_File.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Geometry.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_GraphicsMesh.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_helper.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_hull.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsExport.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsInstantiator.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ScaledCopy.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_schema.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_SchemaStream.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Streaming.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_string.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinystr.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxml.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxmlerror.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxmlparser.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Asc2Bin.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaExport.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaImport.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_cooking.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_customcopy.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_File.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Geometry.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_GraphicsMesh.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_helper.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_hull.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsExport.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsInstantiator.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ScaledCopy.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_schema.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_SchemaStream.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_SchemaTypes.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Streaming.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_string.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinystr.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxml.h"/>
+  </Filter>
+</Files>
+<Globals></Globals>
+</VisualStudioProject>

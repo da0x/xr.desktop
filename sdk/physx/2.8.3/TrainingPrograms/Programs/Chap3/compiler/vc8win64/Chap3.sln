@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson301", "Lesson301.vcproj", "{083BA060-94A0-80C0-61C8-BC002D600898}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson302", "Lesson302.vcproj", "{093B9236-1FB0-4F04-EBF5-FEE29D4C53EE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson303", "Lesson303.vcproj", "{0A3B8498-1C48-09A4-04CC-F6F0359C1B9C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson304", "Lesson304.vcproj", "{0B3AAA0C-8014-FCA0-CD63-96706182E72F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson305", "Lesson305.vcproj", "{0C3A9D38-9000-8391-EDE4-97F0D95EE12C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson306", "Lesson306.vcproj", "{0D3A9080-0880-D460-0010-20006C703EDB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson307", "Lesson307.vcproj", "{0E3A83E4-8A24-3CC5-0C20-A144854A7DAC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson308", "Lesson308.vcproj", "{0F39AE82-5B30-F8B6-082D-E148EE621FE2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson309", "Lesson309.vcproj", "{1039A280-4D00-1E1C-6240-CC80D5AE90B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+EndGlobal

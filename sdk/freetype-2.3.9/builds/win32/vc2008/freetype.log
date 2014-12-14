@@ -1,0 +1,94 @@
+﻿Build started 5/9/2010 10:45:28 PM.
+     1>Project "F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.vcxproj" on node 1 (build target(s)).
+     1>_PrepareForBuild:
+         Creating directory ".\..\..\..\objs\release\".
+         Creating ".\..\..\..\objs\release\freetype.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo".\..\..\..\objs\release/" /Fd".\..\..\..\objs\release/" /Gd /TC /analyze- /errorReport:prompt ..\..\..\src\autofit\autofit.c ..\..\..\src\bdf\bdf.c ..\..\..\src\cff\cff.c ..\..\..\src\base\ftbase.c ..\..\..\src\base\ftbitmap.c ..\..\..\src\cache\ftcache.c ..\..\..\src\base\ftfstype.c ..\..\..\src\base\ftgasp.c ..\..\..\src\base\ftglyph.c ..\..\..\src\gzip\ftgzip.c ..\..\..\src\base\ftinit.c ..\..\..\src\lzw\ftlzw.c ..\..\..\src\base\ftstroke.c ..\..\..\src\base\ftsystem.c ..\..\..\src\smooth\smooth.c ..\..\..\src\base\ftbbox.c ..\..\..\src\base\ftmm.c ..\..\..\src\base\ftpfr.c ..\..\..\src\base\ftsynth.c ..\..\..\src\base\fttype1.c ..\..\..\src\base\ftwinfnt.c ..\..\..\src\pcf\pcf.c ..\..\..\src\pfr\pfr.c ..\..\..\src\psaux\psaux.c ..\..\..\src\pshinter\pshinter.c ..\..\..\src\psnames\psmodule.c ..\..\..\src\raster\raster.c ..\..\..\src\sfnt\sfnt.c ..\..\..\src\truetype\truetype.c ..\..\..\src\type1\type1.c ..\..\..\src\cid\type1cid.c ..\..\..\src\type42\type42.c ..\..\..\src\winfonts\winfnt.c
+         autofit.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+     1>f:\xr.desktop\sdk\freetype-2.3.9\src\autofit\afhints.c(555): warning C4100: 'get_inflections' : unreferenced formal parameter
+         bdf.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         cff.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftbase.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftbitmap.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftcache.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftfstype.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftgasp.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftglyph.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftgzip.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftinit.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftlzw.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftstroke.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftsystem.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         smooth.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftbbox.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftmm.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftpfr.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         ftsynth.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         fttype1.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         Generating Code...
+         Compiling...
+         ftwinfnt.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         pcf.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         pfr.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         psaux.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         pshinter.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         psmodule.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         raster.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         sfnt.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+     1>f:\xr.desktop\sdk\freetype-2.3.9\src\sfnt\ttload.c(204): warning C4244: '=' : conversion from 'FT_UInt' to 'FT_UShort', possible loss of data
+     1>f:\xr.desktop\sdk\freetype-2.3.9\src\sfnt\ttload.c(264): warning C4244: '=' : conversion from 'FT_UInt' to 'FT_UShort', possible loss of data
+         truetype.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         type1.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         type1cid.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         type42.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         winfnt.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h(108): warning C4001: nonstandard extension 'single line comment' was used
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\..\objs\release/" /Fd".\..\..\..\objs\release/" /Gd /TC /analyze- /errorReport:prompt ..\ftdebug.c
+         ftdebug.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1095,5): warning MSB8012: TargetPath(F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\.\..\..\..\objs\release\freetype.lib) does not match the Library's OutputFile property value (F:\xr.desktop\sdk\freetype-2.3.9\objs\win32\vc2008\freetype239.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1097,5): warning MSB8012: TargetName(freetype) does not match the Library's OutputFile property value (freetype239). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\objs\win32\vc2008\freetype239.lib" /NOLOGO .\..\..\..\objs\release/autofit.obj .\..\..\..\objs\release/bdf.obj .\..\..\..\objs\release/cff.obj .\..\..\..\objs\release/ftbase.obj .\..\..\..\objs\release/ftbitmap.obj .\..\..\..\objs\release/ftcache.obj .\..\..\..\objs\release/ftdebug.obj .\..\..\..\objs\release/ftfstype.obj .\..\..\..\objs\release/ftgasp.obj .\..\..\..\objs\release/ftglyph.obj .\..\..\..\objs\release/ftgzip.obj .\..\..\..\objs\release/ftinit.obj .\..\..\..\objs\release/ftlzw.obj .\..\..\..\objs\release/ftstroke.obj .\..\..\..\objs\release/ftsystem.obj .\..\..\..\objs\release/smooth.obj .\..\..\..\objs\release/ftbbox.obj .\..\..\..\objs\release/ftmm.obj .\..\..\..\objs\release/ftpfr.obj .\..\..\..\objs\release/ftsynth.obj .\..\..\..\objs\release/fttype1.obj .\..\..\..\objs\release/ftwinfnt.obj .\..\..\..\objs\release/pcf.obj .\..\..\..\objs\release/pfr.obj .\..\..\..\objs\release/psaux.obj .\..\..\..\objs\release/pshinter.obj .\..\..\..\objs\release/psmodule.obj .\..\..\..\objs\release/raster.obj .\..\..\..\objs\release/sfnt.obj .\..\..\..\objs\release/truetype.obj .\..\..\..\objs\release/type1.obj .\..\..\..\objs\release/type1cid.obj .\..\..\..\objs\release/type42.obj .\..\..\..\objs\release/winfnt.obj
+         freetype.vcxproj -> F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\.\..\..\..\objs\release\freetype.lib
+       _AfterBuild:
+         Deleting file ".\..\..\..\objs\release\freetype.unsuccessfulbuild".
+         Touching ".\..\..\..\objs\release\freetype.lastbuildstate".
+     1>Done Building Project "F:\xr.desktop\sdk\freetype-2.3.9\builds\win32\vc2008\freetype.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.59

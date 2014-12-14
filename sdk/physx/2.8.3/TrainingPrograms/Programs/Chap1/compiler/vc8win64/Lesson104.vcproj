@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+ProjectType="Visual C++"
+Version="8.00"
+Name="Lesson104"
+>
+<Platforms>
+<Platform Name="x64"/>
+</Platforms>
+<Configurations>
+  <Configuration
+    Name="default|x64"
+    OutputDirectory="../../../../../bin/win64"
+    IntermediateDirectory="./build/x64/Lesson104/default"
+    ConfigurationType="1"
+    InheritedPropertySheets=""
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../../../../SDKs/Foundation/include&quot;;&quot;../../../../../SDKs/Physics/include&quot;;&quot;../../../../../SDKs/Cooking/include&quot;;&quot;../../../../../SDKs/PhysXLoader/include&quot;;&quot;../../../../../SDKs/NxCharacter/include&quot;;&quot;../../../Shared_Source&quot;;&quot;../../../Shared_Source/User_Reports&quot;;&quot;../../../Shared_Source/Timer&quot;;&quot;../../../Shared_Source/win&quot;;&quot;../../../../../Graphics/include/win32&quot;;&quot;../../../../../SDKs/Foundation/include&quot;;&quot;../../../../../SDKs/Physics/include&quot;;&quot;../../../../../SDKs/Cooking/include&quot;;&quot;../../../../../SDKs/PhysXLoader/include&quot;;&quot;../../../../../SDKs/NxCharacter/include&quot;;&quot;../../../Shared_Source&quot;;&quot;../../../Shared_Source/User_Reports&quot;;&quot;../../../Shared_Source/Timer&quot;;&quot;../../../Shared_Source/win&quot;;&quot;../../../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CONSOLE;WIN32;_CONSOLE;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions=""
+      ExceptionHandling="1"
+      DebugInformationFormat=""
+      RuntimeLibrary=""
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/.exe" 
+      ProgramDatabaseFile="$(OutDir)/.exe.pdb" 
+      AdditionalOptions=""
+      AdditionalDependencies="&quot;glut32.lib&quot; &quot;PhysXLoader64.lib&quot; &quot;glut32.lib&quot; &quot;PhysXLoader64.lib&quot; "
+      AdditionalLibraryDirectories="&quot;../../../../../Graphics/lib/win32/glut/x64&quot;;&quot;../../../../../SDKs/lib/Win64&quot;;&quot;../../../../../Graphics/lib/win32/glut/x64&quot;;&quot;../../../../../SDKs/lib/Win64&quot;;"
+      ImportLibrary="$(OutDir)/$(TargetName).lib"
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/.exe.map"
+      SubSystem="1"
+      GenerateDebugInformation=""
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool"/>
+    <Tool Name="VCPostBuildEventTool"/>
+    <Tool Name="VCPreLinkEventTool"/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+  <Configuration
+    Name="Debug|x64"
+    OutputDirectory="../../../../../bin/win64"
+    IntermediateDirectory="./build/x64/Lesson104/Debug"
+    ConfigurationType="1"
+    InheritedPropertySheets=""
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../../../../SDKs/Foundation/include&quot;;&quot;../../../../../SDKs/Physics/include&quot;;&quot;../../../../../SDKs/Cooking/include&quot;;&quot;../../../../../SDKs/PhysXLoader/include&quot;;&quot;../../../../../SDKs/NxCharacter/include&quot;;&quot;../../../Shared_Source&quot;;&quot;../../../Shared_Source/User_Reports&quot;;&quot;../../../Shared_Source/Timer&quot;;&quot;../../../Shared_Source/win&quot;;&quot;../../../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CONSOLE;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/Od /MTd /Zi "
+      ExceptionHandling="1"
+      DebugInformationFormat=""
+      RuntimeLibrary=""
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/$(ProjectName)_DEBUG.exe" 
+      ProgramDatabaseFile="$(OutDir)/$(ProjectName)_DEBUG.exe.pdb" 
+      AdditionalOptions="/DEBUG "
+      AdditionalDependencies="&quot;glut32.lib&quot; &quot;PhysXLoader64.lib&quot; "
+      AdditionalLibraryDirectories="&quot;../../../../../Graphics/lib/win32/glut/x64&quot;;&quot;../../../../../SDKs/lib/Win64&quot;;"
+      ImportLibrary="$(OutDir)/$(TargetName).lib"
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/$(ProjectName)_DEBUG.exe.map"
+      SubSystem="1"
+      GenerateDebugInformation=""
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool"/>
+    <Tool Name="VCPostBuildEventTool"/>
+    <Tool Name="VCPreLinkEventTool"/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+  <Configuration
+    Name="Release|x64"
+    OutputDirectory="../../../../../bin/win64"
+    IntermediateDirectory="./build/x64/Lesson104/Release"
+    ConfigurationType="1"
+    InheritedPropertySheets=""
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../../../../SDKs/Foundation/include&quot;;&quot;../../../../../SDKs/Physics/include&quot;;&quot;../../../../../SDKs/Cooking/include&quot;;&quot;../../../../../SDKs/PhysXLoader/include&quot;;&quot;../../../../../SDKs/NxCharacter/include&quot;;&quot;../../../Shared_Source&quot;;&quot;../../../Shared_Source/User_Reports&quot;;&quot;../../../Shared_Source/Timer&quot;;&quot;../../../Shared_Source/win&quot;;&quot;../../../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CONSOLE;NDEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/O2 /MT "
+      ExceptionHandling="1"
+      DebugInformationFormat=""
+      RuntimeLibrary=""
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/Lesson104.exe" 
+      ProgramDatabaseFile="$(OutDir)/Lesson104.exe.pdb" 
+      AdditionalOptions=""
+      AdditionalDependencies="&quot;glut32.lib&quot; &quot;PhysXLoader64.lib&quot; "
+      AdditionalLibraryDirectories="&quot;../../../../../Graphics/lib/win32/glut/x64&quot;;&quot;../../../../../SDKs/lib/Win64&quot;;"
+      ImportLibrary="$(OutDir)/$(TargetName).lib"
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/Lesson104.exe.map"
+      SubSystem="1"
+      GenerateDebugInformation=""
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool"/>
+    <Tool Name="VCPostBuildEventTool"/>
+    <Tool Name="VCPreLinkEventTool"/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+</Configurations>
+<References></References>
+<Files>
+  <Filter Name="Source Files" Filter=""> <!--  -->
+    <File RelativePath="..\..\Lesson104\source\Lesson104.cpp"/>
+  </Filter>
+  <Filter Name="Header Files" Filter=""> <!--  -->
+    <Filter Name="User_Reports" Filter=""> <!--  -->
+      <File RelativePath="..\..\..\Shared_Source\User_Reports\DebugRenderer.h"/>
+      <File RelativePath="..\..\..\Shared_Source\User_Reports\UserAllocator.h"/>
+    </Filter>
+    <File RelativePath="..\..\Lesson104\source\Lesson104.h"/>
+    <File RelativePath="..\..\..\Shared_Source\DrawObjects.h"/>
+    <File RelativePath="..\..\..\Shared_Source\HUD.h"/>
+    <File RelativePath="..\..\..\Shared_Source\UserData.h"/>
+    <File RelativePath="..\..\..\Shared_Source\Stream.h"/>
+  </Filter>
+  <Filter Name="Common Files" Filter=""> <!--  -->
+    <Filter Name="win" Filter=""> <!--  -->
+      <File RelativePath="..\..\..\Shared_Source\win\MediaPath_WIN.cpp"/>
+      <File RelativePath="..\..\..\Shared_Source\win\Timing_WIN.cpp"/>
+    </Filter>
+    <Filter Name="User_Reports" Filter=""> <!--  -->
+      <File RelativePath="..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp"/>
+      <File RelativePath="..\..\..\Shared_Source\User_Reports\UserAllocator.cpp"/>
+    </Filter>
+    <File RelativePath="..\..\..\Shared_Source\DrawObjects.cpp"/>
+    <File RelativePath="..\..\..\Shared_Source\HUD.cpp"/>
+    <File RelativePath="..\..\..\Shared_Source\GLFontRenderer.cpp"/>
+    <File RelativePath="..\..\..\Shared_Source\UserData.cpp"/>
+    <File RelativePath="..\..\..\Shared_Source\Stream.cpp"/>
+  </Filter>
+</Files>
+<Globals></Globals>
+</VisualStudioProject>
